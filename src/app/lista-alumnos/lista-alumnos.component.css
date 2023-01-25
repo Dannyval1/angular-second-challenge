@@ -1,0 +1,10 @@
+.aprobo {
+  padding: 15px;
+  background-color: #dbf2e1;
+  color: #05ab55;
+}
+.reprobo {
+  padding: 15px;
+  background-color: rgba(255, 86, 48, 0.16);
+  color: rgb(255, 86, 48);
+}

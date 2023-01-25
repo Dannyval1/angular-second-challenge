@@ -1,0 +1,10 @@
+<div class="card" style="width: 28rem;margin-bottom: 10px;" *ngFor="let alumno of alumnos">
+    <div class="card-body">
+      <h5 class="card-title">{{alumno.nombre}}</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Curso que estudia: <strong>{{alumno.curso}}</strong></h6>
+      <p class="card-text">Su edad es {{alumno.edad}}</p>
+      <p class="card-text">Su nota es de {{alumno.valoracion}}</p>
+      <span class="reprobo" *ngIf="alumno.valoracion < 3">REPROBO</span>
+      <span class="aprobo" *ngIf="alumno.valoracion > 3">APROBO</span>
+    </div>
+  </div>
